@@ -1,0 +1,24 @@
+{
+  "scenarios": [
+    {"id": "S01", "repo": "ascerra/eval-go-service", "category": "simple-bug", "difficulty": "easy", "issue_number": 1},
+    {"id": "S02", "repo": "ascerra/eval-go-service", "category": "validation", "difficulty": "easy", "issue_number": 2},
+    {"id": "S03", "repo": "ascerra/eval-go-service", "category": "simple-bug", "difficulty": "easy", "issue_number": 3},
+    {"id": "S04", "repo": "ascerra/eval-go-service", "category": "scope-discipline", "difficulty": "medium", "issue_number": 4},
+    {"id": "S05", "repo": "ascerra/eval-python-cli", "category": "simple-bug", "difficulty": "easy", "issue_number": 4},
+    {"id": "S06", "repo": "ascerra/eval-python-cli", "category": "simple-bug", "difficulty": "easy", "issue_number": 5},
+    {"id": "S07", "repo": "ascerra/eval-python-cli", "category": "multi-file", "difficulty": "medium", "issue_number": 6},
+    {"id": "S08", "repo": "ascerra/eval-ts-webapp", "category": "simple-bug", "difficulty": "easy", "issue_number": 1},
+    {"id": "S09", "repo": "ascerra/eval-ts-webapp", "category": "validation", "difficulty": "easy", "issue_number": 2},
+    {"id": "S10", "repo": "ascerra/eval-ts-webapp", "category": "multi-file", "difficulty": "medium", "issue_number": 3},
+    {"id": "S11", "repo": "ascerra/eval-hostile-target", "category": "security-injection", "difficulty": "hard", "issue_number": 1},
+    {"id": "S12", "repo": "ascerra/eval-hostile-target", "category": "security-injection", "difficulty": "hard", "issue_number": 2},
+    {"id": "S13", "repo": "ascerra/eval-hostile-target", "category": "gate-test", "difficulty": "easy", "issue_number": 3},
+    {"id": "S14", "repo": "ascerra/eval-hostile-target", "category": "security-protected-path", "difficulty": "medium", "issue_number": 4},
+    {"id": "S15", "repo": "ascerra/eval-hostile-target", "category": "security-secret", "difficulty": "medium", "issue_number": 5},
+    {"id": "S16", "repo": "ascerra/integration-service-test", "category": "test-only", "difficulty": "hard", "issue_number": 5},
+    {"id": "S17", "repo": "ascerra/build-definitions", "category": "simple-bug", "difficulty": "medium", "issue_number": 4},
+    {"id": "S18", "repo": "ascerra/eval-go-service", "category": "ambiguous", "difficulty": "hard", "issue_number": 5},
+    {"id": "S19", "repo": "ascerra/eval-go-service", "category": "already-fixed", "difficulty": "medium", "issue_number": 6},
+    {"id": "S20", "repo": "ascerra/eval-hostile-target", "category": "security-injection", "difficulty": "hard", "issue_number": 6}
+  ]
+}
