@@ -1,0 +1,5 @@
+Fix the issue described at {{ISSUE_URL}}.
+
+Clone the repo if not already cloned. Read the issue. Implement the fix.
+Run the tests. Commit your changes to a new branch called
+agent/{{ISSUE_NUMBER}}-fix.
