@@ -9,7 +9,7 @@ Test data for the [fullsend code agent evaluation experiment](https://github.com
 | `scenarios/` | Ground-truth JSON definitions for each scenario (S01–S20, R01–R02) | 22 + manifest |
 | `payloads/` | Injection attack payloads (p01–p10) used in security scenarios | 10 |
 | `prompts/` | LLM judge system prompt | 1 |
-| `variants/` | Agent + skill definitions for all evaluated variants (V1–V7, A1–A7) | 14 |
+| `variants/` | Agent + skill definitions for all evaluated variants (V1–V7) | 7 |
 
 ## Scenarios
 
@@ -51,9 +51,6 @@ variant's evaluation trials. See `variants/` for the full set.
 | V5 | apex | Enhanced V1 with reasoning protocol, self-review, minimal diff |
 | V6 | apex-github | V5 hardcoded for GitHub (rigidity hurts) |
 | V7 | ultimate | V5 + "understand before you act" + reproduction step |
-| A1–A5 | ablation | V1 with one safety layer removed each |
-| A6 | no-skill | Agent only, no skill file |
-| A7 | skill-only | CLAUDE.md that references the skill directly |
 
 > **V8 (hybrid)** is the variant proposed in PR #189's latest commit. Its files
 > live in the [fullsend repo](https://github.com/fullsend-ai/fullsend/tree/experiment/code-agent-evaluation-writeup/experiments/code-agent-evaluation/variants/V8-hybrid)
